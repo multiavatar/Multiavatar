@@ -112,11 +112,13 @@ You can use Multiavatar for free, as long as the conditions described in the [LI
 
 ### Screenshots ###
 
-<img src="https://multiavatar.com/press/img/screenshots/screenshot-02.png?v=001?v=001">
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-02.png?v=001">
 
-<img src="https://multiavatar.com/press/img/screenshots/screenshot-03.png?v=001?v=001">
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-03.png?v=001">
 
-<img src="https://multiavatar.com/press/img/screenshots/screenshot-09.png?v=001?v=001">
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-09.png?v=001">
+
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-10.png?v=001">
 
 
 
