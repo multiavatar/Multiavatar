@@ -10,7 +10,7 @@ In total, it is possible to generate **12,230,590,464** unique avatars.
 
 
 
-#### Integration ####
+### Integration ###
 
 Include the script and pass any string to the 'multiavatar' function. It will return the SVG code for the avatar.
 
@@ -25,7 +25,7 @@ Include the script and pass any string to the 'multiavatar' function. It will re
 
 
 
-#### Info ####
+### Info ###
 
 The initial unique 48 (16x3) avatar characters are designed to work as the source from which all 12 billion avatars are generated.
 
@@ -57,7 +57,7 @@ More info can be found in the `multiavatar-0.1.js` file comments.
 
 
 
-#### Development ####
+### Development ###
 
 Multiavatar is coded in vanilla JavaScript. Only a single library (SHA-256) is used, integrated into the script. The initial character designs in SVG are also integrated into the script. So there is a single dependency-free JavaScript file that has everything in it (minified 68 KB).
 
@@ -76,7 +76,7 @@ This is the 0.1 version of Multiavatar, not the final release. While the algorit
 The design of shapes, and the multicultural balance of avatars are also open for further polishing, optimization, creative ideas and improvements.
 
 
-#### Design ####
+### Design ###
 
 The final SVG files are saved (Inkscape 1.0 as "Optimized SVG") with the `_final` suffix in the `svg` folder.
 
@@ -84,7 +84,7 @@ After editing the SVG files with a vector program, overwrite the existing `_fina
 
 
 
-#### API ####
+### API ###
 
 You can use the experimental Multiavatar API. Simply pass the avatar's ID as the URL parameter, and the API will return the avatar's SVG code.
 
@@ -101,11 +101,11 @@ fetch('https://api.multiavatar.com/v1/'
   .then(svg => console.log(svg))
 ```
 
-#### License ####
+### License ###
 
 You can use Multiavatar for free, as long as the conditions described in the [LICENSE](LICENSE) are followed.
 
-#### More info ####
+### More info ###
 
 For additional information and extended functionality, visit the [multiavatar.com](https://multiavatar.com) web-app.
 
