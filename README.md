@@ -76,6 +76,7 @@ This is the 0.1 version of Multiavatar, not the final release. While the algorit
 The design of shapes, and the multicultural balance of avatars are also open for further polishing, optimization, creative ideas and improvements.
 
 
+
 ### Design ###
 
 The final SVG files are saved (Inkscape 1.0 as "Optimized SVG") with the `_final` suffix in the `svg` folder.
@@ -101,9 +102,23 @@ fetch('https://api.multiavatar.com/v1/'
   .then(svg => console.log(svg))
 ```
 
+
+
 ### License ###
 
 You can use Multiavatar for free, as long as the conditions described in the [LICENSE](LICENSE) are followed.
+
+
+
+### Screenshots ###
+
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-02.png?v=001?v=001">
+
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-03.png?v=001?v=001">
+
+<img src="https://multiavatar.com/press/img/screenshots/screenshot-09.png?v=001?v=001">
+
+
 
 ### More info ###
 
