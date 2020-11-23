@@ -149,9 +149,9 @@
         </div>
       </a>
 
-      <div style="height:35px;"></div>
+      <div style="height:40px;"></div>
 
-      <div style="max-width:280px;margin: 0 auto;">
+      <div style="max-width:240px;margin: 0 auto;">
         <input type="text" oninput="getNewIdenticon(this.value)" onfocus="stopDemoNow()" id="identicon-input" class="mono">
       </div>
 
@@ -182,16 +182,6 @@
 
     </div>
 
-
-    <script>
-      // DEV
-      liHomeUrl = "/multiavatar/"
-      homeUrl = "/multiavatar"
-
-      // LIVE
-      // liHomeUrl = "/test/"
-      // homeUrl = "/test/"
-    </script>
 
     <!-- DEVELOPMENT -->
     <script type="text/javascript" src="multiavatar-0.1.js?v=013"></script>
@@ -392,14 +382,14 @@
         randomDemo = customUrl;
       }
 
-      var uniqueString = document.getElementById('identicon-input');
+      var uniqueString = getById('identicon-input');
       uniqueString.innerHTML = customUrl;
 
 
       // Generate initial avatar
-      document.getElementById('identicon-input').value = randomDemo;
+      getById('identicon-input').value = randomDemo;
       var iSVG = multiavatar(randomDemo);
-      document.getElementById('identicon').innerHTML = iSVG;
+      getById('identicon').innerHTML = iSVG;
 
 
       // Update links
@@ -425,10 +415,10 @@
         if (liAddress.length > 0) {
           setTimeout(function() {
             liAddress = liAddress.substring(0, liAddress.length - 1);
-            document.getElementById('identicon-input').value = liAddress;
+            getById('identicon-input').value = liAddress;
             var iSVG = multiavatar(liAddress);
       
-            document.getElementById('identicon').innerHTML = iSVG;
+            getById('identicon').innerHTML = iSVG;
 
             updateLinks(liAddress);
 
@@ -450,10 +440,10 @@
           setTimeout(function() {
             newA += liNewAddress.substring(1,0);
             liNewAddress = liNewAddress.substring(1);
-            document.getElementById('identicon-input').value = newA;
+            getById('identicon-input').value = newA;
             var iSVG = multiavatar(newA);
 
-            document.getElementById('identicon').innerHTML = iSVG;
+            getById('identicon').innerHTML = iSVG;
 
             updateLinks(liNewAddress);
 
@@ -473,13 +463,13 @@
 
       function getNewIdenticon(string) {
         if (string == '') {
-          var loaderHtml = '';
-          innerHTML('identicon', loaderHtml);
+          var loaderHtml = '<div class="ma-spinner"><div></div><div></div></div>';
+          getById('identicon').innerHTML = loaderHtml;
         }
         else {
           var iSVG = multiavatar(string);
           liAddress = string;
-          document.getElementById('identicon').innerHTML = iSVG;
+          getById('identicon').innerHTML = iSVG;
           
           updateLinks(string);
         }
@@ -556,23 +546,11 @@
       };
 
 
-      function closeModal() {
-        divHide('payment-success');
-        divHide('payment-declined');
-        window.history.pushState('Home', 'Home', liHomeUrl);
-      }
-
-
       // Download PNG
 
       function downloadPng() {
         stopDemoNow();
         saveSvgAsPng((document.getElementsByTagName('svg'))[0], "Multiavatar-"+liAddress+".png", {scale: 3.465})
-      }
-
-      function downloadPngWhite() {
-        stopDemoNow();
-        saveSvgAsPng((document.getElementsByTagName('svg'))[0], "Multiavatar-"+liAddress+".png", {scale: 3.465, backgroundColor: 'white'})
       }
 
 
@@ -582,35 +560,12 @@
         return document.getElementById(id);
       }
 
-      function divToggle(id) {
-        if (document.getElementById(id).style.display == 'none' || document.getElementById(id).style.display == '') {
-          document.getElementById(id).style.display = 'block'
-        }
-        else {
-          document.getElementById(id).style.display = 'none'
-        }
-      }
-
       function divHide(id) {
         document.getElementById(id).style.display = 'none';
       }
 
       function divShow(id) {
         document.getElementById(id).style.display = "block";
-      }
-
-      function innerHTML(id, code) {
-        document.getElementById(id).innerHTML = code;
-      }
-
-      function classAdd(id, className) {
-        var el = getById(id);
-        el.classList.add(className);
-      }
-
-      function classRemove(id, className) {
-        var el = getById(id);
-        el.classList.remove(className);
       }
     </script>
 
