@@ -5,7 +5,7 @@
 // Copyright: Gie Katon (2020) (https://giekaton.com)
 
 
-function multiavatar (string, sansBg, ver) {
+function multiavatar (string, sansEnv, ver) {
   string += '';
 
   var themes = {
@@ -805,7 +805,7 @@ function multiavatar (string, sansBg, ver) {
   }
 
   // Without 'env'
-  if (sansBg) {
+  if (sansEnv) {
     final['env'] = '';
   } 
   

@@ -63,11 +63,11 @@ Multiavatar is coded in vanilla JavaScript. Only a single library (SHA-256) is u
 
 To test different parts manually, you can uncomment them in the code.
 
-Also, the Multiavatar script accepts the following three paramenters: `string`, `sansBg`, `ver`.
+Also, the Multiavatar script accepts the following three paramenters: `string`, `sansEnv`, `ver`.
 
 `string` - The text string that will be converted into the avatar. This parameter is required, the other two are optional.
 
-`sansBg` - If this is `true`, the script returns the final avatar without the circle background (environment part).
+`sansEnv` - If this is `true`, the script returns the final avatar without the circle background (environment part).
 
 `ver` - Pass an object to force a specific initial version, for example: `multiavatar('test', false, {'part': '01', 'theme': 'A'});`
 
