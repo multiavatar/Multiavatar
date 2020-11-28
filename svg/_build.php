@@ -150,7 +150,7 @@
 
 		}
 		
-		$data = file_get_contents('../multiavatar-0.1.js');
+		$data = file_get_contents('../multiavatar.js');
 
 		$pos1 = strpos($data, 'inject_start');
 		$pos2 = strpos($data, 'inject_end');
@@ -170,7 +170,7 @@
 
         $new_file = str_replace("style=\"\"", "", $new_file);
 
-		file_put_contents('../multiavatar-0.1.js', $new_file);
+		file_put_contents('../multiavatar.js', $new_file);
 
         echo("Done!");
 ?>

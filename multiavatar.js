@@ -1,4 +1,4 @@
-// Multiavatar v0.1
+// Multiavatar v1.0.0
 
 // URL: https://multiavatar.com
 // GitHub: https://github.com/multiavatar/Multiavatar
@@ -9,9 +9,6 @@ function multiavatar (string, sansEnv, ver) {
   string += '';
 
   var themes = {
-
-    // env = environment
-    // clo = clothing
 
     // Robo
     "00": {

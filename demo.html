@@ -184,10 +184,10 @@
 
 
     <!-- DEVELOPMENT -->
-    <script type="text/javascript" src="multiavatar-0.1.js?v=013"></script>
+    <script type="text/javascript" src="multiavatar.js?v=013"></script>
 
     <!-- PRODUCTION -->
-    <!-- <script type="text/javascript" src="multiavatar-0.1.min.js?v=002"></script> -->
+    <!-- <script type="text/javascript" src="multiavatar.min.js?v=002"></script> -->
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/save-svg-as-png/1.4.17/saveSvgAsPng.min.js"></script>
@@ -364,16 +364,8 @@
       var customUrl = window.location.href.split("/").pop();
       customUrl = customUrl.replace(/%20/g, ' ');
 
-      if (customUrl == 'index.html') {
+      if (customUrl == 'index.html' || customUrl == 'demo.html') {
         customUrl = '';
-      }
-      if (customUrl == 'payment-declined') {
-        customUrl = '';
-        divShow('payment-declined');
-      }
-      if (customUrl == 'payment-success') {
-        customUrl = '';
-        divShow('payment-success');
       }
       if (customUrl.indexOf('?') >= 0) {
         customUrl = customUrl.substring(0, customUrl.indexOf('?'));

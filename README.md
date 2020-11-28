@@ -1,6 +1,6 @@
-# Multiavatar v0.1 #
+# Multiavatar #
 
-<img src="logo.png?v=001" width="65">
+<img src="https://raw.githubusercontent.com/multiavatar/Multiavatar/main/logo.png?v=001" width="65">
 
 [Multiavatar](https://multiavatar.com) is a multicultural avatar maker.
 
@@ -10,12 +10,24 @@ In total, it is possible to generate **12,230,590,464** unique avatars.
 
 
 
-### Integration ###
+### Installation and usage ###
 
 Include the script and pass any string to the 'multiavatar' function. It will return the SVG code for the avatar.
 
+Using npm: 
+
+`npm i @multiavatar/multiavatar`
+
 ```
-<script src="multiavatar-0.1.min.js"></script>
+const multiavatar = require('@multiavatar/multiavatar')
+let svgCode = multiavatar('Binx Bond')
+```
+
+
+Using the script tag:
+
+```
+<script src="multiavatar.min.js"></script>
 
 <script>
   var avatarId = 'Binx Bond';
@@ -53,7 +65,7 @@ The string of characters is also the input for the Multiavatar script, which con
 
 `474747474747` - this is the 12,230,590,464th avatar (or the 16th initial avatar + its "C" color theme).
 
-More info can be found in the `multiavatar-0.1.js` file comments.
+More info can be found in the `multiavatar.js` file comments.
 
 
 
@@ -71,7 +83,7 @@ Also, the Multiavatar script accepts the following three paramenters: `string`, 
 
 `ver` - Pass an object to force a specific initial version, for example: `multiavatar('test', false, {'part': '01', 'theme': 'A'});`
 
-This is the 0.1 version of Multiavatar, not the final release. While the algorithm generates 12 billion unique avatars, some parts (eyes, mouth) are still similar, so it means that currently there are less than 12 billion unique avatars. It is trivial to make all avatars unique by slightly changing the color, but visually that would not make a difference. That's why instead of forcing a formal solution, some parts are left unfinished intentionally.
+While the algorithm generates 12 billion unique avatars, some parts (eyes, mouth) are still similar, so it means that currently there are less than 12 billion unique avatars. It is trivial to make all avatars unique by slightly changing the color, but visually that would not make a difference. That's why instead of forcing a formal solution, some parts are left unfinished intentionally.
 
 The design of shapes, and the multicultural balance of avatars are also open for further polishing, optimization, creative ideas and improvements.
 
@@ -81,7 +93,7 @@ The design of shapes, and the multicultural balance of avatars are also open for
 
 The final SVG files are saved (Inkscape 1.0 as "Optimized SVG") with the `_final` suffix in the `svg` folder.
 
-After editing the SVG files with a vector program, overwrite the existing `_final.svg` files with your new versions. Then run the `_build.php` script to automatically update the `multiavatar-0.1.js` script with the new SVG code from your `_final.svg` files.
+After editing the SVG files with a vector program, overwrite the existing `_final.svg` files with your new versions. Then run the `_build.php` script to automatically update the `multiavatar-dev.js` script with the new SVG code from your `_final.svg` files.
 
 
 
