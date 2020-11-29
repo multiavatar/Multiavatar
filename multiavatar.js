@@ -18,7 +18,7 @@ function multiavatar (string, sansEnv, ver) {
         "head": ["#fff"],
         "mouth": ["#fff", "#000", "#000"],
         "eyes": ["#000", "none", "#00FFFF"],
-        "top": ["#fff", "#fff", "#fff", "#fff"]
+        "top": ["#fff", "#fff"]
       },
       "B": {
         "env": ["#ff1ec1"],
@@ -26,7 +26,7 @@ function multiavatar (string, sansEnv, ver) {
         "head": ["#ffc1c1"],
         "mouth": ["#fff", "#000", "#000"],
         "eyes": ["#FF2D00", "#fff", "none"],
-        "top": ["#a21d00", "#fff", "#000", "#fff", "#fff", "#000", "#fff", "#fff", "#fff", "#000", "#fff", "#000", "#fff"]
+        "top": ["#a21d00", "#fff"]
       },
       "C": {
         "env": ["#0079b1"],
@@ -34,7 +34,7 @@ function multiavatar (string, sansEnv, ver) {
         "head": ["#f5aa77"],
         "mouth": ["#fff", "#000", "#000"],
         "eyes": ["#0c00de", "#fff", "none"],
-        "top": ["#acfffd", "#acfffd", "#acfffd", "#acfffd", "#acfffd", "#acfffd"]
+        "top": ["#acfffd", "#acfffd"]
       },
     },
 
