@@ -1,0 +1,25 @@
+{
+  "name": "@multiavatar/multiavatar",
+  "version": "1.0.2",
+  "description": "Multicultural Avatar Generator",
+  "author": "Gie Katon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/multiavatar/Multiavatar.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "node -e \"const fs = require('fs'); const s = fs.readFileSync('multiavatar.min.js', 'utf8'); const multiavatar = 'module.exports = multiavatar; ' + s; fs.writeFileSync('index.js', multiavatar);\""
+  },
+  "keywords": [
+    "avatar",
+    "profile",
+    "picture",
+    "image",
+    "generator",
+    "maker",
+    "creator"
+  ],
+  "homepage": "https://multiavatar.com",
+  "license": "https://multiavatar.com/license"
+}
