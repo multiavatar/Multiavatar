@@ -36,6 +36,13 @@ Using the script tag:
 ```
 
 
+Include from CDN:
+
+```
+<script src="https://cdn.jsdelivr.net/npm/@multiavatar/multiavatar/multiavatar.min.js"></script>
+```
+
+
 
 ### Info ###
 
