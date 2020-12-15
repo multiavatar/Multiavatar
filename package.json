@@ -7,9 +7,11 @@
     "type": "git",
     "url": "https://github.com/multiavatar/Multiavatar.git"
   },
-  "main": "index.js",
+  "main": "dist/multiavatar.cjs",
+  "module": "dist/multiavatar.es.js",
   "scripts": {
-    "build": "node -e \"const fs = require('fs'); const s = fs.readFileSync('multiavatar.min.js', 'utf8'); const multiavatar = 'module.exports = multiavatar; ' + s; fs.writeFileSync('index.js', multiavatar);\""
+    "build": "del-cli dist && node tools/build.js",
+    "prepublishOnly": "yarn build"
   },
   "keywords": [
     "avatar",
@@ -21,5 +23,8 @@
     "creator"
   ],
   "homepage": "https://multiavatar.com",
-  "license": "https://multiavatar.com/license"
+  "license": "https://multiavatar.com/license",
+  "devDependencies": {
+    "del-cli": "^3.0.1"
+  }
 }
