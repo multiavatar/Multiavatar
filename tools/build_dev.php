@@ -5,22 +5,22 @@
 
 
     $all = array(
-        "Robo" => "./00_final.svg", 
-        "Girl" => "./01_final.svg", 
-        "Blonde" => "./02_final.svg",
-        "Guy" => "./03_final.svg",
-        "Country" => "./04_final.svg",
-        "Geeknot" => "./05_final.svg",
-        "Asian" => "./06_final.svg",
-        "Punk" => "./07_final.svg",
-        "Afrohair" => "./08_final.svg",
-        "Normie Female" => "./09_final.svg",
-        "Older" => "./10_final.svg",
-        "Firehair" => "./11_final.svg",
-        "Blond" => "./12_final.svg",
-        "Ateam" => "./13_final.svg",
-        "Rasta" => "./14_final.svg",
-        "Meta" => "./15_final.svg"
+        "Robo" => "../svg/00_final.svg", 
+        "Girl" => "../svg/01_final.svg", 
+        "Blonde" => "../svg/02_final.svg",
+        "Guy" => "../svg/03_final.svg",
+        "Country" => "../svg/04_final.svg",
+        "Geeknot" => "../svg/05_final.svg",
+        "Asian" => "../svg/06_final.svg",
+        "Punk" => "../svg/07_final.svg",
+        "Afrohair" => "../svg/08_final.svg",
+        "Normie Female" => "../svg/09_final.svg",
+        "Older" => "../svg/10_final.svg",
+        "Firehair" => "../svg/11_final.svg",
+        "Blond" => "../svg/12_final.svg",
+        "Ateam" => "../svg/13_final.svg",
+        "Rasta" => "../svg/14_final.svg",
+        "Meta" => "../svg/15_final.svg"
     );
 
     $final_string = "";

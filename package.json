@@ -1,16 +1,23 @@
 {
   "name": "@multiavatar/multiavatar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Multicultural Avatar Generator",
-  "author": "Gie Katon",
+  "author": "Gie Katon <git@giekaton.com> (http://giekaton.com/)",
   "repository": {
     "type": "git",
     "url": "https://github.com/multiavatar/Multiavatar.git"
   },
+  "contributors": [
+    {
+      "name" : "X",
+      "email" : "xxx@xxx.xxx",
+      "url" : "http://x.com/"
+    }
+  ],
   "main": "dist/multiavatar.cjs",
   "module": "dist/multiavatar.es.js",
   "scripts": {
-    "build": "del-cli dist && node tools/build.js",
+    "build": "node tools/build.js",
     "prepublishOnly": "yarn build"
   },
   "keywords": [
@@ -23,8 +30,5 @@
     "creator"
   ],
   "homepage": "https://multiavatar.com",
-  "license": "https://multiavatar.com/license",
-  "devDependencies": {
-    "del-cli": "^3.0.1"
-  }
+  "license": "SEE LICENSE IN LICENSE"
 }

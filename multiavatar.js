@@ -1,4 +1,4 @@
-// Multiavatar v1.0.0
+// Multiavatar v1.0
 
 // URL: https://multiavatar.com
 // GitHub: https://github.com/multiavatar/Multiavatar
@@ -304,7 +304,7 @@ function multiavatar (string, sansEnv, ver) {
     "10": {
       "A": {
         "env": ["#104c8c"],
-        "clo": ["#354B65", "#3D8EBB", "#89D0DA", "#00FFFD", ],
+        "clo": ["#354B65", "#3D8EBB", "#89D0DA", "#00FFFD" ],
         "head": ["#cc9a5c"],
         "mouth": ["#222", "#fff"],
         "eyes": ["#000", "#000"],
@@ -312,7 +312,7 @@ function multiavatar (string, sansEnv, ver) {
       },
       "B": {
         "env": ["#0DC15C"],
-        "clo": ["#212121", "#fff", "#212121", "#fff", ],
+        "clo": ["#212121", "#fff", "#212121", "#fff" ],
         "head": ["#dca45f"],
         "mouth": ["#111", "#633b1d"],
         "eyes": ["#000", "#000"],
@@ -320,7 +320,7 @@ function multiavatar (string, sansEnv, ver) {
       },
       "C": {
         "env": ["#ffe500"],
-        "clo": ["#1e5e80", "#fff", "#1e5e80", "#fff",],
+        "clo": ["#1e5e80", "#fff", "#1e5e80", "#fff"],
         "head": ["#e8bc86"],
         "mouth": ["#111", "none"],
         "eyes": ["#000", "#000"],
@@ -786,9 +786,7 @@ function multiavatar (string, sansEnv, ver) {
     var regex = /#(.*?);/g;
     var result = svgString.match(regex);
 
-    var resultFinal = '';
-
-    resultFinal = svgString;
+    var resultFinal = svgString;
 
     if (result != null) {
       for (var i = 0; i < result.length; i++) {
