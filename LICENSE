@@ -1,5 +1,5 @@
 COPYRIGHTS
-2020 (c) Gie Katon (https://giekaton.com)
+2020-2021 (c) Gie Katon (https://giekaton.com)
 Multiavatar - Multicultural Avatar Maker
 https://multiavatar.com
 
@@ -7,26 +7,26 @@ Proof-of-existence:
 https://setinblock.com/0x2dc3fcc6a0a23e88a82def9c07248731d98e7178a9fd4cee9ca72fa7e1a28774
 
 
-MULTIAVATAR LICENSE v0.1
+MULTIAVATAR LICENSE v1.0
 
 You can use Multiavatar for free for non-commercial and commercial purposes, according to 
 the conditions described in this license.
 
-You can use any avatar, generated with the Multiavatar, for free as your profile picture, 
-gaming logo, as a part of your design or software project, and similar.
+Any avatar, generated with the Multiavatar Generator, can be used for free as your profile 
+picture, gaming logo, as a part of your design or software project, and similar.
 
 Permission is hereby granted, free of charge, including for commercial purposes, to any 
 person obtaining a copy of this project, to use, copy, modify, merge, distribute, sublicense, 
 and/or sell copies of a derivative work, and to permit persons to whom the work is furnished 
 to do so, as long as the Restrictions described in this license are followed.
 
-For software projects, you can add the Multiavatar to your website or an app, and use it 
+For software projects, you can add Multiavatar to your website or an app, and use it 
 without any limitations under similar conditions as required by the MIT License, as long as 
 the Multiavatar design assets are used according to the Restrictions described in this 
 license.
 
-You can also use the Multiavatar algorithm, which utilizes the SHA-256 library (see license), 
-to create your own avatars library with your own avatar designs.
+You can also use the Multiavatar Generator algorithm, which utilizes the SHA-256 library 
+(see license), to create your own avatars library with your own avatar designs.
 
 
 Restrictions
@@ -64,5 +64,5 @@ Contact
 
 For any additional questions, please contact us by email.
 
-We encourage a widespead use and creative interpretations of Multiavatar. Send us pictures and/or 
-links how you are using Multiavatar in your projects. Share them with the #multiavatar hashtag.
+We encourage widespread use and creative interpretations of Multiavatar. Send us pictures 
+and/or links of how you are using Multiavatar in your projects to showcase them.
