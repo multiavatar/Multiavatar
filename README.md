@@ -14,12 +14,20 @@ In total, it is possible to generate **12,230,590,464** unique avatars.
 
 Include the script and pass any string to the 'multiavatar' function. It will return the SVG code for the avatar.
 
+
 Using npm: 
 
 `npm i @multiavatar/multiavatar`
 
+CommonJS:
 ```
 const multiavatar = require('@multiavatar/multiavatar')
+let svgCode = multiavatar('Binx Bond')
+```
+
+ES Module:
+```
+import multiavatar from '@multiavatar/multiavatar/esm'
 let svgCode = multiavatar('Binx Bond')
 ```
 
