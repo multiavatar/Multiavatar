@@ -732,9 +732,6 @@ function multiavatar (string, sansEnv, ver) {
   p['top'] = Math.round((47/100)*p['top']) + '';
   
   // p['top'] = '25';
-
-  // console.log(pt1, pt2, pt3, pt4, pt5, pt6);
-  // console.log(typeof(p), p.length)
   
 
   // Get parts (range 0-15) + define themes
