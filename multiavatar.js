@@ -495,7 +495,7 @@ function multiavatar (string, sansEnv, ver) {
 
 
   var sP = [];
-  var svgStart = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231 231">';
+  var svgStart = '<svg xmlns="http://www.w3.org/2000/svg" width="231" height="231" viewBox="0 0 231 231">';
   var svgEnd = '</svg>';
 
   // Optimization
